@@ -7,23 +7,20 @@ In this first step we'll create three files that will comprise the most basic Bl
 1. create a `file` named `style.css` with the following content:
 
 <details>
-<summary>Expand to see code</summary>
+    <summary>Expand to see code</summary>
 
 ```css
 /* 
     Theme Name: My First Block Theme
 */
 ```
-
 </details>
 <br>
-
-The completed contents of this file can be found in the step-1 branch of this repository in the `style.css` file
 
 2. create a `file` named `theme.json` with the following content:
 
 <details>
-<summary>Expand to see code</summary>
+    <summary>Expand to see code</summary>
 
 ```json
 {
@@ -35,10 +32,12 @@ The completed contents of this file can be found in the step-1 branch of this re
 <br>
 
 3.  create a `directory` named `templates` in your theme's root directory.
+<br>
 
 4.  create a `file` named `index.html` inside the `templates` `directory` with the following content:
+
 <details>
-<summary>Expand to see code</summary>
+    <summary>Expand to see code</summary>
 
 ```html
 <!-- wp:site-title /-->
@@ -65,6 +64,7 @@ The completed contents of this file can be found in the step-1 branch of this re
 </details>
 <br>
 
-5. Navigate to your WordPress site admin area to `appearance > themes` to activate your theme.
+1. Navigate to your WordPress site admin area to `appearance > themes` to activate your theme.
+<br>
 
 6. Access the front end of your site to see your site with it's newly activated block theme.
