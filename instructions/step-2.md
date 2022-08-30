@@ -1,0 +1,1 @@
+In this step we'll Split code finto Template Parts and update index.html template to use our new parts.
