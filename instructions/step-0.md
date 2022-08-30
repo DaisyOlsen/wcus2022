@@ -6,7 +6,7 @@
 1. Create a local installation of WordPress
    1. [localwp.com](https://localwp.com) __`*`__
    2. [wp-env](https://developer.wordpress.org/block-editor/reference-guides/packages/packages-env/)
-2. Setup an IDE(Integrated Development Environment) or Text Editor for editing theme files.
+2. Setup an IDE (Integrated Development Environment) or Text Editor for editing theme files.
    1. [Visual Studio Code](https://code.visualstudio.com/) __`*`__
    2. [WebStorm](https://www.jetbrains.com/webstorm/) `(Paid)`
    3. [PHPStorm](https://www.jetbrains.com/phpstorm/) `(Paid)`
