@@ -1,13 +1,13 @@
 ## Step 0 
 Preparation for Theme Development
 
-## Step 1 < You are Here >
+## Step 1 
 Create Base Theme File Structure
 
 ## Step 2
 Split code finto Template Parts; Update index.html template to use parts.
 
-## Step 3
+## Step 3 < You are Here >
 Populating theme.json - settings (Supports and Presets)
 
 ## Step 4
