@@ -6,19 +6,27 @@
 			"duotone": [
 				{
 					"colors": [
-						"var(--wp--preset--color--light)",
-						"var(--wp--preset--color--dark)"
+						"var(--wp--preset--color--base)",
+						"var(--wp--preset--color--contrast)"
 					],
 					"name": "Light-Dark",
-					"slug": "light-dark"
+					"slug": "base-contrast"
 				},
 				{
 					"colors": [
-						"var(--wp--preset--color--dark)",
-						"var(--wp--preset--color--light)"
+						"var(--wp--preset--color--contrast)",
+						"var(--wp--preset--color--base)"
 					],
 					"name": "Dark-Light",
-					"slug": "dark-light"
+					"slug": "contrast-base"
+				},
+				{
+					"colors": [
+						"var(--wp--preset--color--primary)",
+						"var(--wp--preset--color--secondary)"
+					],
+					"name": "Pink-Magenta",
+					"slug": "primary-secondary"
 				}
 			],
 			"gradients": [
