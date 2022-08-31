@@ -6,19 +6,19 @@
 			"duotone": [
 				{
 					"colors": [
-						"var(--wp--preset--color--base)",
+						"var(--wp--preset--color--light)",
 						"var(--wp--preset--color--contrast)"
 					],
 					"name": "Light-Dark",
-					"slug": "base-contrast"
+					"slug": "light-contrast"
 				},
 				{
 					"colors": [
 						"var(--wp--preset--color--contrast)",
-						"var(--wp--preset--color--base)"
+						"var(--wp--preset--color--light)"
 					],
 					"name": "Dark-Light",
-					"slug": "contrast-base"
+					"slug": "contrast-light"
 				},
 				{
 					"colors": [
@@ -40,11 +40,16 @@
 				{
 					"color": "#f9f9f9",
 					"name": "Light",
-					"slug": "base"
+					"slug": "light"
+				},
+                {
+					"color": "#999999",
+					"name": "Dark",
+					"slug": "dark"
 				},
 				{
 					"color": "#1e1a75",
-					"name": "Dark",
+					"name": "Blue",
 					"slug": "contrast"
 				},
 				{
