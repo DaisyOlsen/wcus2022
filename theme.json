@@ -1,138 +1,138 @@
 {
-    "$schema": "https://schemas.wp.org/wp/6.0/theme.json",
-    "version": 2,
-    "templateParts": [
-        {
-            "area": "header",
-            "name": "header",
-            "title": "Header"
-        },
-        {
-            "area": "footer",
-            "name": "footer",
-            "title": "Footer"
-        },
-        {
-            "area": "uncategorized",
-            "name": "loop",
-            "title": "Loop"
-        }
-    ],
-    "settings": {
-        "layout": {
-            "contentSize": "920px",
-            "wideSize": "1200px"
-        },
-        "appearanceTools": true,
-        "color": {
-            "defaultPalette": false,
-            "palette": [
-                {
-                    "color": "#f9f9f9",
-                    "name": "Light",
-                    "slug": "base"
-                },
-                {
-                    "color": "#1e1a75",
-                    "name": "Dark",
-                    "slug": "contrast"
-                },
-                {
-                    "color": "#a11477",
-                    "name": "Magenta",
-                    "slug": "primary"
-                },
-                {
-                    "color": "#e13661",
-                    "name": "Pink",
-                    "slug": "secondary"
-                },
-                {
-                    "color": "#ff6f4b",
-                    "name": "Orange",
-                    "slug": "tertiary"
-                },
-                {
-                    "color": "#ffa951",
-                    "name": "Yellow",
-                    "slug": "quaternary"
-                }
-            ],
-            "duotone": [
-                {
-                    "colors": [
-                        "var(--wp--preset--color--light)",
-                        "var(--wp--preset--color--dark)"
-                    ],
-                    "name": "Light-Dark",
-                    "slug": "light-dark"
-                },
-                {
-                    "colors": [
-                        "var(--wp--preset--color--dark)",
-                        "var(--wp--preset--color--light)"
-                    ],
-                    "name": "Dark-Light",
-                    "slug": "dark-light"
-                }
-            ],
-            "gradients": [
-                {
-                    "gradient": "linear-gradient(180deg, var(--wp--preset--color--quaternary) 0%, var(--wp--preset--color--tertiary) 40%, var(--wp--preset--color--secondary) 50%, var(--wp--preset--color--primary) 60%, var(--wp--preset--color--contrast) 90%)",
-                    "name": "Sunset",
-                    "slug": "primary-gradient"
-                }
-            ]
-        },
-        "typography": {
-            "fontSizes":[
-                {
-                    "size": "1rem",
-                    "slug": "small"
-                },
-                {
-					"size": "1.125rem",
-					"slug": "medium"
+	"settings": {
+		"appearanceTools": true,
+		"color": {
+			"defaultPalette": false,
+			"duotone": [
+				{
+					"colors": [
+						"var(--wp--preset--color--light)",
+						"var(--wp--preset--color--dark)"
+					],
+					"name": "Light-Dark",
+					"slug": "light-dark"
 				},
-                {
-					"size": "1.75rem",
-					"slug": "large"
-				},
-                {
-					"size": "2.25rem",
-					"slug": "x-large"
+				{
+					"colors": [
+						"var(--wp--preset--color--dark)",
+						"var(--wp--preset--color--light)"
+					],
+					"name": "Dark-Light",
+					"slug": "dark-light"
 				}
-            ],
-            "fontFamilies":[
-                {
+			],
+			"gradients": [
+				{
+					"gradient": "linear-gradient(180deg, var(--wp--preset--color--quaternary) 0%, var(--wp--preset--color--tertiary) 40%, var(--wp--preset--color--secondary) 50%, var(--wp--preset--color--primary) 60%, var(--wp--preset--color--contrast) 90%)",
+					"name": "Sunset",
+					"slug": "primary-gradient"
+				}
+			],
+			"palette": [
+				{
+					"color": "#f9f9f9",
+					"name": "Light",
+					"slug": "base"
+				},
+				{
+					"color": "#1e1a75",
+					"name": "Dark",
+					"slug": "contrast"
+				},
+				{
+					"color": "#a11477",
+					"name": "Magenta",
+					"slug": "primary"
+				},
+				{
+					"color": "#e13661",
+					"name": "Pink",
+					"slug": "secondary"
+				},
+				{
+					"color": "#ff6f4b",
+					"name": "Orange",
+					"slug": "tertiary"
+				},
+				{
+					"color": "#ffa951",
+					"name": "Yellow",
+					"slug": "quaternary"
+				}
+			]
+		},
+		"layout": {
+			"contentSize": "920px",
+			"wideSize": "1200px"
+		},
+		"typography": {
+			"fontFamilies": [
+				{
 					"fontFamily": "-apple-system, BlinkMacSystemFont, \"avenir next\", avenir, \"segoe ui\", \"helvetica neue\", helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif",
 					"name": "System Sans-Serif Font",
 					"slug": "sans-serif"
-                },
-                {
+				},
+				{
 					"fontFamily": "\"Iowan Old Style\", \"Apple Garamond\", Baskerville, \"Times New Roman\", \"Droid Serif\", Times, \"Source Serif Pro\", serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
 					"name": "System Serif Font",
 					"slug": "serif"
-                },
-                {
+				},
+				{
 					"fontFamily": "Menlo, Consolas, Monaco, \"Liberation Mono\", \"Lucida Console\", monospace",
 					"name": "System Monospace Font",
 					"slug": "monospace"
-                },
-                {
-                    "fontFace": [
-                        {
-                            "fontFamily": "Bluetea",
-                            "src": [
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Bluetea",
+							"src": [
 								"file:./assets/fonts/bluetea/Bluetea.woff2"
-                            ]
-                        }
-                    ],
-                    "fontFamily": "Bluetea",
-                    "name": "Headings Font",
-                    "slug": "heading-font"
-                }
-            ]
-        }
-    }
+							]
+						}
+					],
+					"fontFamily": "Bluetea",
+					"name": "Headings Font",
+					"slug": "heading-font"
+				}
+			],
+			"fontSizes": [
+				{
+					"size": "1rem",
+					"slug": "small"
+				},
+				{
+					"size": "1.125rem",
+					"slug": "medium"
+				},
+				{
+					"size": "1.75rem",
+					"slug": "large"
+				},
+				{
+					"size": "2.25rem",
+					"slug": "x-large"
+				}
+			]
+		}
+	},
+	"templateParts": [
+		{
+			"area": "header",
+			"name": "header",
+			"title": "Header"
+		},
+		{
+			"area": "footer",
+			"name": "footer",
+			"title": "Footer"
+		},
+		{
+			"area": "uncategorized",
+			"name": "loop",
+			"title": "Loop"
+		}
+	],
+	"version": 2,
+	"$schema": "https://schemas.wp.org/wp/6.0/theme.json"
 }
