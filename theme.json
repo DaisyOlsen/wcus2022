@@ -78,7 +78,7 @@
             ],
             "gradients": [
                 {
-                    "gradient": "linear-gradient(90deg, var(--wp--preset--color--quaternary) 0%, var(--wp--preset--color--tertiary) 20%, var(--wp--preset--color--secondary) 40%, var(--wp--preset--color--primary) 60%, var(--wp--preset--color--dark) 80%)",
+                    "gradient": "linear-gradient(180deg, var(--wp--preset--color--quaternary) 0%, var(--wp--preset--color--tertiary) 40%, var(--wp--preset--color--secondary) 50%, var(--wp--preset--color--primary) 60%, var(--wp--preset--color--contrast) 90%)",
                     "name": "Sunset",
                     "slug": "primary-gradient"
                 }
