@@ -1,2 +1,13 @@
-/* Theme Name: WCUS 2022 Block Theme
+/* 
+Theme Name: WCUS 2022 Block Theme
+Version: 0.0.1
 */
+
+.is-style-full-height-group {
+    min-height: 100vh;
+}
+
+.wp-block-post-title a:active,
+.wp-block-post-title a:hover {
+    text-decoration: underline;
+}
