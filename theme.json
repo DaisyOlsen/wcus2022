@@ -205,6 +205,11 @@
 			"area": "uncategorized",
 			"name": "loop",
 			"title": "Loop"
+		},
+		{
+			"area": "uncategorized",
+			"name": "single-content",
+			"title": "Single Content"
 		}
 	],
 	"version": 2,
