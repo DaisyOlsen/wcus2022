@@ -145,6 +145,9 @@
 	"styles": {
 		"blocks": {
 			"core/post-title": {
+				"color": {
+					"text": "var:preset|color|contrast"
+				},
 				"elements": {
 					"link": {
 						"typography": {
