@@ -145,6 +145,13 @@
 	"styles": {
 		"blocks": {
 			"core/post-title": {
+				"elements": {
+					"link": {
+						"typography": {
+							"textDecoration": "none"
+						}
+					}
+				},
 				"typography": {
 					"fontFamily": "var:preset|font-family|sans-serif",
 					"fontSize": "var:preset|font-size|x-large",
@@ -171,12 +178,15 @@
 			},
 			"core/site-title": {
 				"color": {
-					"text": "var:preset|color|quaternary"
+					"text": "var:preset|color|contrast"
 				},
 				"elements": {
 					"link": {
 						"color": {
 							"text": "var:preset|color|contrast"
+						},
+						"typography": {
+							"textDecoration": "dashed"
 						}
 					}
 				},
