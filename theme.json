@@ -138,7 +138,7 @@
 					"fontStyle": "normal",
 					"fontWeight": "900",
 					"letterSpacing": "5px",
-					"lineHeight": 2
+					"lineHeight": "2"
 				}
 			},
 			"core/query-pagination-numbers": {
@@ -170,8 +170,7 @@
 				"typography": {
 					"fontFamily": "var:preset|font-family|heading-font",
 					"fontSize": "2.75rem",
-					"letterSpacing": "3px",
-					"lineHeight": 1.5
+					"letterSpacing": "3px"
 				}
 			}
 		},
