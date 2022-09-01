@@ -175,7 +175,7 @@
 			}
 		},
 		"color": {
-			"background": "var:preset|color|contrast",
+			"background": "var:preset|color|light",
 			"text": "var:preset|color|dark"
 		},
 		"elements": {
