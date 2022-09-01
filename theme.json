@@ -1,4 +1,7 @@
 {
+	"patterns": [
+		"simple-call-to-action"
+	],
 	"settings": {
 		"appearanceTools": true,
 		"color": {
