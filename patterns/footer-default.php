@@ -14,8 +14,8 @@
 <?php
 printf(
 	/* Translators: WordPress link. */
-	esc_html__( 'Proudly powered by %s', 'twentytwentythree' ),
-	'<a href="' . esc_url( __( 'https://wordpress.org', 'twentytwentythree' ) ) . '" rel="nofollow">WordPress</a> © ' . date('Y')
+	esc_html__( 'Proudly powered by %s', 'wcus' ),
+	'<a href="' . esc_url( __( 'https://wordpress.org', 'wcus' ) ) . '" rel="nofollow">WordPress</a> © ' . date('Y')
 )
 ?>
 </p>
