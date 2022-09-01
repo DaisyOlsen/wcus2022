@@ -42,7 +42,7 @@
 					"name": "Light",
 					"slug": "light"
 				},
-                {
+				{
 					"color": "#333333",
 					"name": "Dark",
 					"slug": "dark"
@@ -127,6 +127,68 @@
 					"slug": "x-large"
 				}
 			]
+		}
+	},
+	"styles": {
+		"blocks": {
+			"core/post-title": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|sans-serif",
+					"fontSize": "var:preset|font-size|x-large",
+					"fontStyle": "normal",
+					"fontWeight": "900",
+					"letterSpacing": "5px",
+					"lineHeight": 2
+				}
+			},
+			"core/query-pagination-numbers": {
+				"typography": {
+					"letterSpacing": "5px"
+				}
+			},
+			"core/site-tagline": {
+				"color": {
+					"text": "var:preset|color|contrast"
+				},
+				"typography": {
+					"fontFamily": "var:preset|font-family|serif",
+					"fontStyle": "italic",
+					"fontWeight": "900"
+				}
+			},
+			"core/site-title": {
+				"color": {
+					"text": "var:preset|color|quaternary"
+				},
+				"elements": {
+					"link": {
+						"color": {
+							"text": "var:preset|color|contrast"
+						}
+					}
+				},
+				"typography": {
+					"fontFamily": "var:preset|font-family|heading-font",
+					"fontSize": "2.75rem",
+					"letterSpacing": "3px",
+					"lineHeight": 1.5
+				}
+			}
+		},
+		"color": {
+			"background": "var:preset|color|contrast",
+			"text": "var:preset|color|dark"
+		},
+		"elements": {
+			"link": {
+				"color": {
+					"text": "var:preset|color|contrast"
+				}
+			}
+		},
+		"typography": {
+			"fontFamily": "var:preset|font-family|sans-serif",
+			"fontSize": "var:preset|font-size|small"
 		}
 	},
 	"templateParts": [
