@@ -11,3 +11,16 @@ Version: 0.0.1
 .wp-block-post-title a:hover {
     text-decoration: underline;
 }
+
+.is-style-my-button a.wp-block-button__link {
+    background-color: var(--wp--custom--color--my-button-1);
+    border: solid 2px var(--wp--custom--color--my-button-2);
+    color: var(--wp--custom--color--my-button-2);
+}
+
+.is-style-my-button a.wp-block-button__link:active,
+.is-style-my-button a.wp-block-button__link:hover {
+    background-color: var(--wp--custom--color--my-button-2);
+    border: solid 2px var(--wp--custom--color--my-button-1);
+    color: var(--wp--custom--color--my-button-1);
+}
