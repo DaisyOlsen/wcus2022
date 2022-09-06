@@ -62,7 +62,7 @@
 [Step 0. Preparation - Setting up Development Environment][0]
 
 ### Next Step
-[Step 1. Create and Activate a Minimal Block Theme][1]
+[Step 2. Create and incorporate template parts - Demonstrate Block Locking options][2]
 
 <details><summary>Expand to See All Steps</summary>
 
