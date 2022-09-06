@@ -58,11 +58,11 @@
 *__Note:__* The contents of each branch reflects the theme as it should look at the _END_ of each step.
 
 ---
-### Previous Step
-[Step 0. Preparation - Setting up Development Environment][0]
 
-### Next Step
-[Step 2. Create and incorporate template parts - Demonstrate Block Locking options][2]
+| <-- [Previous Step][0] |  [Next Step][2] --> |
+| :------------- |  -------------: |
+| [Step 0. Preparation - Setting up Development Environment][0]  | [Step 2. Create and incorporate template parts - Demonstrate Block Locking options][2]  |
+
 
 <details><summary>Expand to See All Steps</summary>
 
