@@ -2,8 +2,3 @@
 Theme Name: WCUS 2022 Block Theme
 Version: 0.0.1
 */
-
-.wp-block-post-title a:active,
-.wp-block-post-title a:hover {
-    text-decoration: underline;
-}
