@@ -7,9 +7,9 @@
   2. Open the folder in your preferred IDE
   3. Create a file named style.css with the following contents
 
-```css 
-/** Theme Name: WCUS 2022 **/
-```
+        ```css 
+        /** Theme Name: WCUS 2022 **/
+        ```
 
   4. Create a folder/directory named `templates`
   5. Create a file named `index.html` in the `templates` folder/directory with the code below
