@@ -61,14 +61,14 @@
 
 | <-- [Previous Step][0] |  [Next Step][2] --> |
 | :------------- |  -------------: |
-| [Step 0. Preparation - Setting up Development Environment][0]  | [Step 2. Create and incorporate template parts - Demonstrate Block Locking options][2]  |
+| [Step 0. Setting up a development environment][0]  | [Step 2. Create and incorporate template parts][2]  |
 
 
 <details><summary>Expand to See All Steps</summary>
 
-- [Step 0.][0] Preparation - Setting up Development Environment 
+- [Step 0.][0] Setting up Development Environment 
 - [Step 1.][1] Create and Activate a Minimal Block Theme __<--You Are Here__
-- [Step 2.][2] Create and incorporate template parts - Demonstrate Block Locking options
+- [Step 2.][2] Create and incorporate template parts
 - [Step 3.][3] Create a theme.json file with schema, version, and template part registration
 - [Step 4.][4] Add Presets and Supports to theme.json
 - [Step 5.][5] Refine Templates and Parts in the Site Editor
