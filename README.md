@@ -3,7 +3,7 @@
 This branch contains the completed theme. If you are interested in recreating this theme please head back to the Main branch to get started!
 
 
-Here's a summary of what we've done so far!
+Here's a summary of the steps for creating this theme.
 
 0.  Preliminary Setup & Prerequisites
 1.  Create and Activate a Minimal Block Theme
