@@ -12,7 +12,7 @@ if ( ! function_exists( 'wcus_support' ) ) :
 	 */
 	function wcus_support() {
 
-		// Enqueue editor styles.
+		// Enqueue editor styles. See: https://developer.wordpress.org/reference/functions/add_editor_style/
 		add_editor_style( 'style.css' );
 
 	}
@@ -38,7 +38,7 @@ if ( ! function_exists( 'wcus_styles' ) ) :
 			$version_string
 		);
 
-		// Enqueue theme stylesheet.
+		// Enqueue theme stylesheet. See: https://developer.wordpress.org/reference/functions/wp_enqueue_style/
 		wp_enqueue_style( 'wcus-style' );
 
 	}
@@ -51,7 +51,7 @@ add_action( 'wp_enqueue_scripts', 'wcus_styles' );
 if ( ! function_exists( 'wcus_enqueue' ) ) :
 
     /**
-     * Registers Block Styles.
+     * Registers Block Styles. See: https://developer.wordpress.org/block-editor/reference-guides/block-api/block-styles/
      */
 
     function wcus_enqueue() {
