@@ -3,20 +3,20 @@
 
 ### Step 1. Create and Activate a Minimal Block Theme
 
-  1. Create a folder/directory named `wcus-2022` for your theme.
-  2. Open the folder in your preferred IDE
-  3. Create a file named style.css with the following contents
+  1. Navigate to the `wp-content/themes` folder/directory in your local WordPress devlepment environment using your file manager.
+  2. Create a folder/directory named `wcus-2022` for your theme.
+  3. Create a file named `style.css` using your preferred IDE or text editor with the following contents:
 
         ```css 
         /** Theme Name: WCUS 2022 **/
         ```
 
   4. Create a folder/directory named `templates`
-  5. Create a file named `index.html` in the `templates` folder/directory with the code below
+  5. Create a file named `index.html` in the `templates` folder/directory with the following code:
 
         <details open>
         <summary>
-        Collapse/Expand
+        collapse/expand code
         </summary>
 
         ```html
