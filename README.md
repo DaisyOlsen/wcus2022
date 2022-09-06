@@ -59,8 +59,13 @@
 
 ---
 
-| <-- [Previous Step (0)][0] | [Next Step (2)][2] --> |
-| :------------- | -------------: |
+<div align="center">
+
+__<-- [Previous Step (0)][0]__
+
+ __[Next Step (2)][2] -->__
+
+</div>
 
 <details><summary>Expand to See All Steps</summary>
 
