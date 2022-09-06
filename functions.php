@@ -46,23 +46,3 @@ if ( ! function_exists( 'wcus_styles' ) ) :
 endif;
 
 add_action( 'wp_enqueue_scripts', 'wcus_styles' );
-
-
-if ( ! function_exists( 'wcus_enqueue' ) ) :
-
-    /**
-     * Registers Block Styles. See: https://developer.wordpress.org/block-editor/reference-guides/block-api/block-styles/
-     */
-
-    function wcus_enqueue() {
-        wp_enqueue_script(
-            'wcus-script',
-            get_stylesheet_directory_uri() . '/assets/js/block-styles.js',
-            array( 'wp-blocks', 'wp-dom-ready', 'wp-edit-post' ),
-            filemtime( plugin_dir_path( __FILE__ ) . '/assets/js/block-styles.js' )
-        );
-    }
-
-endif;
-
-add_action( 'enqueue_block_editor_assets', 'wcus_enqueue' );

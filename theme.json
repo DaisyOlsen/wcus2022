@@ -74,12 +74,6 @@
 				}
 			]
 		},
-		"custom": {
-			"color":{
-				"my-button-1": "#39FF14",
-				"my-button-2": "#ffffff"
-			}
-		},
 		"layout": {
 			"contentSize": "920px",
 			"wideSize": "1200px"
