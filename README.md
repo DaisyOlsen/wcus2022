@@ -5,7 +5,7 @@
 
 Here's a summary of the steps for creating this theme. At the end of each step you will have a completely functional WordPress theme. At each step new instructions will be introduced to build upon each previous step.
 
-###Step 0. Preparation - Setting up Development Environment
+### Step 0. Preparation - Setting up Development Environment
 
   1. Create a local installation of WordPress
      - [localwp.com](https://localwp.com) __`*`__
@@ -29,7 +29,9 @@ Here's a summary of the steps for creating this theme. At the end of each step y
 <details><summary>Expand to See All Steps</summary>
 
 [Step 0.][0] Preparation - Setting up Development Environment
+
 [Step 1.][1] Create and Activate a Minimal Block Theme
+
 [Step 2.][2] Create and incorporate template parts - Demonstrate Block Locking options
 [Step 3.][3] Create a theme.json file with schema, version, and template part registration
 [Step 4.][4] Step 4.  Add Presets and Supports to theme.json
