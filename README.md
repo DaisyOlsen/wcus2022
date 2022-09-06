@@ -17,10 +17,10 @@ Here's a summary of the steps for creating this theme.
 9.  Surface a Block Pattern from the Pattern directory via theme.json
 10. Create a Template Layout Block Pattern
 11. Create and Register singular.html (use template layout block pattern via site editor)
-12. Create a custom 404 page with a local image, and translatable text with a Hidden Block Pattern
-13. Create and register a custom template for posts and pages __(You are here)__
+12. Create a custom 404 page with a local image, and translatable text with a Hidden Block Pattern __(You are here)__
+13. Create and register a custom template for posts and pages 
 14. Create a style variation and add a font
-15. Final - Export your theme! __(You are here)__
+15. Final - Export your theme!
 
 
 Not covered here but still important!

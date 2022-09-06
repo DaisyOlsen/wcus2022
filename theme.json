@@ -1,14 +1,4 @@
 {
-	"customTemplates": [
-		{
-			"name": "blank",
-			"postTypes": [
-				"page",
-				"post"
-			],
-			"title": "Blank"
-		}
-	],
 	"patterns": [
 		"simple-call-to-action"
 	],
