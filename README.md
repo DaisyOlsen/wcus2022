@@ -13,8 +13,8 @@ Here's a summary of the steps for creating this theme.
 5.  Refine Templates and Parts in the Site Editor
 6.  Add styles to theme.json
 7.  Enqueue style.css for custom CSS
-8.  Register and use block styles & custom colors in theme.json
-9.  Surface a Block Pattern from the Pattern directory via theme.json __(You are here)__
+8.  Register and use block styles & custom colors in theme.json __(You are here)__
+9.  Surface a Block Pattern from the Pattern directory via theme.json 
 10. Create a Template Layout Block Pattern 
 11. Create and Register singular.html (use template layout block pattern via site editor) 
 12. Create a custom 404 page with a local image, and translatable text with a Hidden Block Pattern 
