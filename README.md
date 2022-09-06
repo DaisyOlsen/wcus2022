@@ -14,7 +14,10 @@
   4. Create a folder/directory named `templates`
   5. Create a file named `index.html` in the `templates` folder/directory with the code below
 
-        <details open><summary>Expand/Collapse
+        <details open>
+        <summary>
+        Collapse/Expand
+        </summary>
 
         ```html
         <!-- wp:site-title /-->
