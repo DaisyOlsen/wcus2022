@@ -9,8 +9,8 @@ Here's a summary of the steps for creating this theme.
 1.  Create and Activate a Minimal Block Theme
 2.  Create and incorporate template parts - Demonstrate Block Locking options
 3.  Create a theme.json file with schema, version, and template part registration
-4.  Add Presets and Supports to theme.json
-5.  Refine Templates and Parts in the Site Editor __(You are here)__
+4.  Add Presets and Supports to theme.json __(You are here)__
+5.  Refine Templates and Parts in the Site Editor 
 6.  Add styles to theme.json
 7.  Enqueue style.css for custom CSS 
 8.  Register and use block styles & custom colors in theme.json 
