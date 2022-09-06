@@ -1,34 +1,43 @@
 # Build Your First Block Theme Workshop
 ## WCUS 2022
 
-# This repository is intended to teach Block Theme development.
-
-Here's a summary of the steps for creating this theme. At the end of each step you will have a completely functional WordPress theme. At each step new instructions will be introduced to build upon each previous step.
-
 ### Step 0. Preparation - Setting up Development Environment
 
   1. Create a local installation of WordPress
-     - [localwp.com](https://localwp.com) __`*`__
-     - [wp-env](https://developer.wordpress.org/block-editor/reference-guides/packages/packages-env/)
+
+        _Options:_
+
+      - [localwp.com](https://localwp.com) __`*`__
+      - [wp-env](https://developer.wordpress.org/block-editor/reference-guides/packages/packages-env/)
+
   2. Setup an IDE (Integrated Development Environment) or Text Editor for editing theme files.
-     - [Visual Studio Code](https://code.visualstudio.com/) __`*`__
-     - [WebStorm](https://www.jetbrains.com/webstorm/) `(Paid)`
-     - [PHPStorm](https://www.jetbrains.com/phpstorm/) `(Paid)`
-  3. Ability to access local WordPress installation files
-     - OS File Manager __`*`__
-     - File Manager of your choice
-  4. Check out (or Download) this respository to your development environment at `wp-content/themes`
+
+        Options: 
+
+      - [Visual Studio Code](https://code.visualstudio.com/) __`*`__
+      - [WebStorm](https://www.jetbrains.com/webstorm/) `(Paid)`
+      - [PHPStorm](https://www.jetbrains.com/phpstorm/) `(Paid)`
+
+
+  3. Have the ability to access local WordPress installation files
+
+        Options:
+
+      - OS File Manager __`*`__
+      - File Manager of your choice
+
+  4. Check out`*` or Download this respository to your development environment at `wp-content/themes`
 
   ___Note:__ __`*`__ Denotes tools used for Demonstration and Examples_
 
-<hr/>
+---
 
 ### Next Step
-[Step 1.][1] Create and Activate a Minimal Block Theme
+[Step 1. Create and Activate a Minimal Block Theme][1]
 
 <details><summary>Expand to See All Steps</summary>
 
-- [Step 0.][0] Preparation - Setting up Development Environment
+- [Step 0.][0] Preparation - Setting up Development Environment __<--You Are Here__
 - [Step 1.][1] Create and Activate a Minimal Block Theme
 - [Step 2.][2] Create and incorporate template parts - Demonstrate Block Locking options
 - [Step 3.][3] Create a theme.json file with schema, version, and template part registration
@@ -46,7 +55,7 @@ Here's a summary of the steps for creating this theme. At the end of each step y
 - [Step 15.][15] Final - Export your theme!
 </details>
 
-<hr/>
+---
 
 __Not covered here but still important!__
 - Preparing your theme for the Theme Directory
