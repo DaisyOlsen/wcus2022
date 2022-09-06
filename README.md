@@ -53,19 +53,19 @@ __Not covered here but still important!__
 - Accessibility
 - Responsivity Testing
 
-[0]: ../blob/step-0/README.md
-[1]: ../blob/step-1/README.md
-[2]: ../blob/step-2/README.md
-[3]: ../blob/step-3/README.md
-[4]: ../blob/step-4/README.md
-[5]: ../blob/step-5/README.md
-[6]: ../blob/step-6/README.md
-[7]: ../blob/step-7/README.md
-[8]: ../blob/step-8/README.md
-[9]: ../blob/step-9/README.md
-[10]: ../blob/step-10/README.md
-[11]: ../blob/step-11/README.md
-[12]: ../blob/step-12/README.md
-[13]: ../blob/step-13/README.md
-[14]: ../blob/step-14/README.md
-[15]: ../blob/final/README.md
+[0]: ../step-0/README.md
+[1]: ../step-1/README.md
+[2]: ../step-2/README.md
+[3]: ../step-3/README.md
+[4]: ../step-4/README.md
+[5]: ../step-5/README.md
+[6]: ../step-6/README.md
+[7]: ../step-7/README.md
+[8]: ../step-8/README.md
+[9]: ../step-9/README.md
+[10]: ../step-10/README.md
+[11]: ../step-11/README.md
+[12]: ../step-12/README.md
+[13]: ../step-13/README.md
+[14]: ../step-14/README.md
+[15]: ../final/README.md
