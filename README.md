@@ -59,10 +59,8 @@
 
 ---
 
-| <-- [Previous Step][0] |  [Next Step][2] --> |
-| :------------- |  -------------: |
-| [Step 0. Setting up a development environment][0]  | [Step 2. Create and incorporate template parts][2]  |
-
+| <-- [Previous Step][0] | [Next Step][2] --> |
+| :------------- | -------------: |
 
 <details><summary>Expand to See All Steps</summary>
 
