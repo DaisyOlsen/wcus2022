@@ -59,7 +59,7 @@
 
 ---
 
-| <-- [Previous Step][0] | [Next Step][2] --> |
+| <-- [Previous Step (0)][0] | [Next Step (2)][2] --> |
 | :------------- | -------------: |
 
 <details><summary>Expand to See All Steps</summary>
