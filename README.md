@@ -52,9 +52,10 @@
         </details>
 
  1. Navigate to `appearance > themes` in your WordPress development site
- 2. Activate the WCUS 2022 theme
+ 2. Activate the `WCUS 2022` theme
  3. Access the front end of the site to see the theme in action
 
+*__Note:__* The contents of each branch reflects the theme as it should look at the _END_ of each step.
 
 ---
 ### Previous Step
