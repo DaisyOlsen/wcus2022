@@ -34,7 +34,8 @@
         </summary>
 
         ```html
-
+        <!-- wp:site-title /-->
+        <!-- wp:site-tagline /-->
         ```
         </details>
 
@@ -46,7 +47,9 @@
         </summary>
 
         ```html
-
+        <!-- wp:paragraph -->
+        <p>WCUS 2022 Block Theme Workshop</p>
+        <!-- /wp:paragraph -->
         ```
         </details>
 
@@ -58,7 +61,27 @@
         </summary>
 
         ```html
+        <!-- wp:query {"queryId":0} -->
+        <div class="wp-block-query">
 
+            <!-- wp:post-template -->
+
+                <!-- wp:post-title /-->
+            
+                <!-- wp:post-excerpt /-->
+
+            <!-- /wp:post-template -->
+
+            <!-- wp:query-pagination -->
+
+                <!-- wp:query-pagination-previous /-->
+
+                <!-- wp:query-pagination-next /-->
+
+            <!-- /wp:query-pagination -->
+
+        </div>
+        <!-- /wp:query -->
         ```
         </details>
 
@@ -70,7 +93,11 @@
         </summary>
 
         ```html
+        <!-- wp:template-part {"lock":{"move":true,"remove":true},"slug":"header"} /-->
 
+        <!-- wp:template-part {"lock":{"move":true,"remove":true},"slug":"loop"} /-->
+
+        <!-- wp:template-part {"lock":{"move":true,"remove":true},"slug":"footer"} /-->
         ```
         </details>
 
