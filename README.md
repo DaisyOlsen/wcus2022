@@ -63,18 +63,18 @@ __Not covered here but still important!__
 - Responsivity Testing
 
 [0]: ../../tree/step-0
-[1]: ../step-1
-[2]: ../step-2
-[3]: ../step-3
-[4]: ../step-4
-[5]: ../step-5
-[6]: ../step-6
-[7]: ../step-7
-[8]: ../step-8
-[9]: ../step-9
-[10]: ../step-10
-[11]: ../step-11
-[12]: ../step-12
-[13]: ../step-13
-[14]: ../step-14
-[15]: ../final
+[1]: ../../tree/step-1
+[2]: ../../tree/step-2
+[3]: ../../tree/step-3
+[4]: ../../tree/step-4
+[5]: ../../tree/step-5
+[6]: ../../tree/step-6
+[7]: ../../tree/step-7
+[8]: ../../tree/step-8
+[9]: ../../tree/step-9
+[10]: ../../tree/step-10
+[11]: ../../tree/step-11
+[12]: ../../tree/step-12
+[13]: ../../tree/step-13
+[14]: ../../tree/step-14
+[15]: ../../tree/final
