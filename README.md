@@ -47,9 +47,9 @@
 
 <div align="center">
 
-__<-- [Previous Step (5)][4]__
+__<-- [Previous Step (5)][5]__
 
- __[Next Step (7)][6] -->__
+ __[Next Step (7)][7] -->__
 
 </div>
 
