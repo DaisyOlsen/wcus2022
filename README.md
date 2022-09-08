@@ -62,7 +62,7 @@ __Not covered here but still important!__
 - Accessibility
 - Responsivity Testing
 
-[0]: ../step-0
+[0]: ../tree/step-0
 [1]: ../step-1
 [2]: ../step-2
 [3]: ../step-3
