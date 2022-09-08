@@ -2,8 +2,8 @@
 ## WCUS 2022
 <details><summary>Click for Table of Contents</summary>
 
-- [Step 0.][0] Setting up Development Environment 
-- [Step 1.][1] Create and Activate a Minimal Block Theme __<--You Are Here__
+- [Step 0.][0] Setting up Development Environment __<--You Are Here__
+- [Step 1.][1] Create and Activate a Minimal Block Theme 
 - [Step 2.][2] Create and incorporate template parts
 - [Step 3.][3] Create a theme.json file
 - [Step 4.][4] Add Settings to theme.json
