@@ -22,7 +22,7 @@
 
 ---
 
-### Step 7. nqueue style.css for custom CSS
+### Step 7. Enqueue style.css for custom CSS
 
   1. Navigate to the `Appearance > Editor` in your WordPress Development Site admin area.
   2. Open List view to see the blocks currently in index.html template and related parts.
