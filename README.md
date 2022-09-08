@@ -24,7 +24,7 @@
 
 ### Step 1. Create and Activate a Minimal Block Theme
 
-  1. Navigate to the `wp-content/themes` folder/directory in your local WordPress devlepment environment using your file manager.
+  1. Navigate to the `/wp-content/themes` folder/directory in your local WordPress devlepment environment using your file manager.
   2. Create a folder/directory named `wcus-2022` for your theme.
   3. Create a file named `style.css` using your preferred IDE or text editor with the following contents:
 
@@ -37,7 +37,7 @@
 
         <details open>
         <summary>
-        collapse/expand code
+        <sup>collapse/expand code</sup>
         </summary>
 
         ```html
@@ -72,7 +72,7 @@
         ```
         </details>
 
- 1. Navigate to `appearance > themes` in your WordPress development site
+ 1. Navigate to `Appearance > Themes` in your WordPress development site
  2. Activate the `WCUS 2022` theme
  3. Access the front end of the site to see the theme in action
 
@@ -90,19 +90,19 @@ __<-- [Previous Step (0)][0]__
 
 ---
 
-[0]: ../step-0
-[1]: ../step-1
-[2]: ../step-2
-[3]: ../step-3
-[4]: ../step-4
-[5]: ../step-5
-[6]: ../step-6
-[7]: ../step-7
-[8]: ../step-8
-[9]: ../step-9
-[10]: ../step-10
-[11]: ../step-11
-[12]: ../step-12
-[13]: ../step-13
-[14]: ../step-14
-[15]: ../final
+[0]: ../../tree/step-0
+[1]: ../../tree/step-1
+[2]: ../../tree/step-2
+[3]: ../../tree/step-3
+[4]: ../../tree/step-4
+[5]: ../../tree/step-5
+[6]: ../../tree/step-6
+[7]: ../../tree/step-7
+[8]: ../../tree/step-8
+[9]: ../../tree/step-9
+[10]: ../../tree/step-10
+[11]: ../../tree/step-11
+[12]: ../../tree/step-12
+[13]: ../../tree/step-13
+[14]: ../../tree/step-14
+[15]: ../../tree/final
