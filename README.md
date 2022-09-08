@@ -1,6 +1,26 @@
 # Build Your First Block Theme Workshop
 ## WCUS 2022
+<details><summary>Click for Table of Contents</summary>
 
+- [Step 0.][0] Setting up Development Environment 
+- [Step 1.][1] Create and Activate a Minimal Block Theme __<--You Are Here__
+- [Step 2.][2] Create and incorporate template parts
+- [Step 3.][3] Create a theme.json file
+- [Step 4.][4] Add Settings to theme.json
+- [Step 5.][5] Refine Templates and Parts
+- [Step 6.][6] Add styles to theme.json
+- [Step 7.][7] Enqueue style.css for custom CSS
+- [Step 8.][8] Register and use block styles and custom variables
+- [Step 9.][9] Surface a block pattern via theme.json
+- [Step 10.][10] Create a Template Layout Block Pattern
+- [Step 11.][11] Create and Register singular.html
+- [Step 12.][12] Create a custom 404 page
+- [Step 13.][13] Create and register a custom template
+- [Step 14.][14] Create a style variation
+- [Step 15.][15] Final - Export your theme!
+</details>
+
+---
 ### Step 0. Preparation - Setting up Development Environment
 
   1. Create a local installation of WordPress
@@ -34,26 +54,6 @@
 
 ### Next Step
 [Step 1. Create and Activate a Minimal Block Theme][1]
-
-<details><summary>Expand to See All Steps</summary>
-
-- [Step 0.][0] Preparation - Setting up Development Environment __<--You Are Here__
-- [Step 1.][1] Create and Activate a Minimal Block Theme
-- [Step 2.][2] Create and incorporate template parts - Demonstrate Block Locking options
-- [Step 3.][3] Create a theme.json file with schema, version, and template part registration
-- [Step 4.][4] Add Presets and Supports to theme.json
-- [Step 5.][5] Refine Templates and Parts in the Site Editor
-- [Step 6.][6] Add styles to theme.json
-- [Step 7.][7] Enqueue style.css for custom CSS
-- [Step 8.][8] Register and use block styles & custom colors in theme.json
-- [Step 9.][9] Surface a Block Pattern from the Pattern directory via theme.json
-- [Step 10.][10] Create a Template Layout Block Pattern
-- [Step 11.][11] Create and Register singular.html (use template layout block pattern via site editor)
-- [Step 12.][12] Create a custom 404 page with a local image, and translatable text with a Hidden Block Pattern
-- [Step 13.][13] Create and register a custom template for posts and pages
-- [Step 14.][14] Create a style variation and add a font
-- [Step 15.][15] Final - Export your theme!
-</details>
 
 ---
 
