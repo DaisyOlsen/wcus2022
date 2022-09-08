@@ -90,19 +90,19 @@ __<-- [Previous Step (0)][0]__
 
 ---
 
-[0]: ../../tree/step-0#wcus-2022
-[1]: ../../tree/step-1#wcus-2022
-[2]: ../../tree/step-2#wcus-2022
-[3]: ../../tree/step-3#wcus-2022
-[4]: ../../tree/step-4#wcus-2022
-[5]: ../../tree/step-5#wcus-2022
-[6]: ../../tree/step-6#wcus-2022
-[7]: ../../tree/step-7#wcus-2022
-[8]: ../../tree/step-8#wcus-2022
-[9]: ../../tree/step-9#wcus-2022
-[10]: ../../tree/step-10#wcus-2022
-[11]: ../../tree/step-11#wcus-2022
-[12]: ../../tree/step-12#wcus-2022
-[13]: ../../tree/step-13#wcus-2022
-[14]: ../../tree/step-14#wcus-2022
-[15]: ../../tree/final#wcus-2022
+[0]: ../../tree/step-0/#wcus-2022
+[1]: ../../tree/step-1/#wcus-2022
+[2]: ../../tree/step-2/#wcus-2022
+[3]: ../../tree/step-3/#wcus-2022
+[4]: ../../tree/step-4/#wcus-2022
+[5]: ../../tree/step-5/#wcus-2022
+[6]: ../../tree/step-6/#wcus-2022
+[7]: ../../tree/step-7/#wcus-2022
+[8]: ../../tree/step-8/#wcus-2022
+[9]: ../../tree/step-9/#wcus-2022
+[10]: ../../tree/step-10/#wcus-2022
+[11]: ../../tree/step-11/#wcus-2022
+[12]: ../../tree/step-12/#wcus-2022
+[13]: ../../tree/step-13/#wcus-2022
+[14]: ../../tree/step-14/#wcus-2022
+[15]: ../../tree/final/#wcus-2022
