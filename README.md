@@ -16,7 +16,7 @@
 - [Step 11.][11] Create and Register singular.html
 - [Step 12.][12] Create a custom 404 page
 - [Step 13.][13] Create and register a custom template
-- [Step 14.][14] Create a style variation and add a font
+- [Step 14.][14] Create a style variation
 - [Step 15.][15] Final - Export your theme!
 </details>
 
