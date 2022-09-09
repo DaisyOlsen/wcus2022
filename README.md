@@ -24,20 +24,52 @@
 
 ### Step 8. Register and use block styles and custom variables
 
-  1. Navigate to the `Appearance > Editor` in your WordPress Development Site admin area.
-  2. Open List view to see the blocks currently in index.html template and related parts.
-  3. Add a group block to the template and move all three template part blocks so that they are inside the group.
+#### Create block-style.js file in `assets/js/` directory/folder
+<details open>
+<summary>
+<sup>collapse/expand code</sup>
+</summary>
 
-        <details open>
-        <summary>
-        <sup>collapse/expand code</sup>
-        </summary>
+  ```js
+wp.blocks.registerBlockStyle( 'core/group', {
+    name: 'full-height-group',
+    label: 'Full Height Group',
+} );
 
-        ```html
+wp.blocks.registerBlockStyle( 'core/button', {
+    name: 'my-button',
+    label: 'My Neon Button',
+} );
+```
+</details>
 
-        ```
+#### Enqueue Block Style script file
+<details open>
+<summary>
+<sup>collapse/expand code</sup>
+</summary>
 
-        </details>
+  ```php
+if ( ! function_exists( 'wcus_enqueue' ) ) :
+
+    /**
+     * Registers Block Styles. See: https://developer.wordpress.org/block-editor/reference-guides/block-api/block-styles/
+     */
+
+    function wcus_enqueue() {
+        wp_enqueue_script(
+            'wcus-script',
+            get_stylesheet_directory_uri() . '/assets/js/block-styles.js',
+            array( 'wp-blocks', 'wp-dom-ready', 'wp-edit-post' ),
+            filemtime( plugin_dir_path( __FILE__ ) . '/assets/js/block-styles.js' )
+        );
+    }
+
+endif;
+
+add_action( 'enqueue_block_editor_assets', 'wcus_enqueue' );
+```
+</details>
 
   
 
