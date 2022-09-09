@@ -24,198 +24,204 @@
 
 ### Step 4. Add Settings (Presets and Supports) to theme.json
 
-  1. Navigate to the `/wp-content/themes/wcus2022` folder/directory in your local WordPress devlepment environment using your file manager.
-  2. Edit the file named `theme.json` in the `wcus2022` folder/directory
-  3. On a new line after the opening `{` add:
+### Adding a settings section to theme.json
+On a new line after the opening `{` in theme.json add:
 
-        <details open>
-        <summary>
-        <sup>collapse/expand code</sup>
-        </summary>
+<details open>
+<summary>
+<sup>collapse/expand code</sup>
+</summary>
 
-        ```json
-        "settings": {
+```json
+"settings": {
 
-        },
-        ```
+},
+```
 
-        </details>
+</details>
 
-  4. On the line after `"settings": {`  add:
+#### Enable Appearance Tools
 
-        <details open>
-        <summary>
-        <sup>collapse/expand code</sup>
-        </summary>
+On the line after `"settings": {`  add:
 
-        ```json
-		"appearanceTools": true,
-        ```
+  <details open>
+  <summary>
+  <sup>collapse/expand code</sup>
+  </summary>
 
-        </details>
+  ```json
+  "appearanceTools": true,
+  ```
 
-  5. On a new line add:
+  </details>
 
-        <details open>
-        <summary>
-        <sup>collapse/expand code</sup>
-        </summary>
+#### Add Color Presets and Supports
 
-        ```json
-		"color": {
-			"defaultPalette": false,
-			"duotone": [
-				{
-					"colors": [
-						"var(--wp--preset--color--light)",
-						"var(--wp--preset--color--contrast)"
-					],
-					"name": "Light-Dark",
-					"slug": "light-contrast"
-				},
-				{
-					"colors": [
-						"var(--wp--preset--color--contrast)",
-						"var(--wp--preset--color--light)"
-					],
-					"name": "Dark-Light",
-					"slug": "contrast-light"
-				},
-				{
-					"colors": [
-						"var(--wp--preset--color--primary)",
-						"var(--wp--preset--color--secondary)"
-					],
-					"name": "Pink-Magenta",
-					"slug": "primary-secondary"
-				}
-			],
-			"gradients": [
-				{
-					"gradient": "linear-gradient(180deg, var(--wp--preset--color--quaternary) 0%, var(--wp--preset--color--tertiary) 40%, var(--wp--preset--color--secondary) 65%, var(--wp--preset--color--primary) 75%, var(--wp--preset--color--contrast) 95%)",
-					"name": "Sunset",
-					"slug": "primary-gradient"
-				}
-			],
-			"palette": [
-				{
-					"color": "#f9f9f9",
-					"name": "Light",
-					"slug": "light"
-				},
-				{
-					"color": "#333333",
-					"name": "Dark",
-					"slug": "dark"
-				},
-				{
-					"color": "#1e1a75",
-					"name": "Blue",
-					"slug": "contrast"
-				},
-				{
-					"color": "#a11477",
-					"name": "Magenta",
-					"slug": "primary"
-				},
-				{
-					"color": "#e13661",
-					"name": "Pink",
-					"slug": "secondary"
-				},
-				{
-					"color": "#ff6f4b",
-					"name": "Orange",
-					"slug": "tertiary"
-				},
-				{
-					"color": "#ffa951",
-					"name": "Yellow",
-					"slug": "quaternary"
-				}
-			]
-		},
-        ```
+On a new line add:
 
-        </details>
+  <details open>
+  <summary>
+  <sup>collapse/expand code</sup>
+  </summary>
 
-  6. On a new line add:
+  ```json
+"color": {
+"defaultPalette": false,
+"duotone": [
+  {
+    "colors": [
+      "var(--wp--preset--color--light)",
+      "var(--wp--preset--color--contrast)"
+    ],
+    "name": "Light-Dark",
+    "slug": "light-contrast"
+  },
+  {
+    "colors": [
+      "var(--wp--preset--color--contrast)",
+      "var(--wp--preset--color--light)"
+    ],
+    "name": "Dark-Light",
+    "slug": "contrast-light"
+  },
+  {
+    "colors": [
+      "var(--wp--preset--color--primary)",
+      "var(--wp--preset--color--secondary)"
+    ],
+    "name": "Pink-Magenta",
+    "slug": "primary-secondary"
+  }
+],
+"gradients": [
+  {
+    "gradient": "linear-gradient(180deg, var(--wp--preset--color--quaternary) 0%, var(--wp--preset--color--tertiary) 40%, var(--wp--preset--color--secondary) 65%, var(--wp--preset--color--primary) 75%, var(--wp--preset--color--contrast) 95%)",
+    "name": "Sunset",
+    "slug": "primary-gradient"
+  }
+],
+"palette": [
+  {
+    "color": "#f9f9f9",
+    "name": "Light",
+    "slug": "light"
+  },
+  {
+    "color": "#333333",
+    "name": "Dark",
+    "slug": "dark"
+  },
+  {
+    "color": "#1e1a75",
+    "name": "Blue",
+    "slug": "contrast"
+  },
+  {
+    "color": "#a11477",
+    "name": "Magenta",
+    "slug": "primary"
+  },
+  {
+    "color": "#e13661",
+    "name": "Pink",
+    "slug": "secondary"
+  },
+  {
+    "color": "#ff6f4b",
+    "name": "Orange",
+    "slug": "tertiary"
+  },
+  {
+    "color": "#ffa951",
+    "name": "Yellow",
+    "slug": "quaternary"
+  }
+]
+},
+  ```
 
-        <details open>
-        <summary>
-        <sup>collapse/expand code</sup>
-        </summary>
+  </details>
 
-        ```json
-        "layout": {
-			"contentSize": "920px",
-			"wideSize": "1200px"
-		},
-        ```
+#### Add Layout Settings
+On a new line add:
 
-        </details>
+<details open>
+<summary>
+<sup>collapse/expand code</sup>
+</summary>
 
-  7. On a new line add:
+```json
+"layout": {
+"contentSize": "920px",
+"wideSize": "1200px"
+},
+```
 
-        <details open>
-        <summary>
-        <sup>collapse/expand code</sup>
-        </summary>
+</details>
 
-        ```json
-		"typography": {
-			"fontFamilies": [
-				{
-					"fontFamily": "-apple-system, BlinkMacSystemFont, \"avenir next\", avenir, \"segoe ui\", \"helvetica neue\", helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif",
-					"name": "System Sans-Serif Font",
-					"slug": "sans-serif"
-				},
-				{
-					"fontFamily": "\"Iowan Old Style\", \"Apple Garamond\", Baskerville, \"Times New Roman\", \"Droid Serif\", Times, \"Source Serif Pro\", serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
-					"name": "System Serif Font",
-					"slug": "serif"
-				},
-				{
-					"fontFamily": "Menlo, Consolas, Monaco, \"Liberation Mono\", \"Lucida Console\", monospace",
-					"name": "System Monospace Font",
-					"slug": "monospace"
-				},
-				{
-					"fontFace": [
-						{
-							"fontFamily": "Bluetea",
-							"src": [
-								"file:./assets/fonts/bluetea/Bluetea.woff2"
-							]
-						}
-					],
-					"fontFamily": "Bluetea",
-					"name": "Headings Font",
-					"slug": "heading-font"
-				}
-			],
-			"fontSizes": [
-				{
-					"size": "1rem",
-					"slug": "small"
-				},
-				{
-					"size": "1.125rem",
-					"slug": "medium"
-				},
-				{
-					"size": "1.75rem",
-					"slug": "large"
-				},
-				{
-					"size": "2.25rem",
-					"slug": "x-large"
-				}
-			]
-		}
-        ```
+#### Add Typography Presets
 
-        </details>
+On a new line add:
+
+<details open>
+<summary>
+<sup>collapse/expand code</sup>
+</summary>
+
+  ```json
+"typography": {
+"fontFamilies": [
+  {
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"avenir next\", avenir, \"segoe ui\", \"helvetica neue\", helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif",
+    "name": "System Sans-Serif Font",
+    "slug": "sans-serif"
+  },
+  {
+    "fontFamily": "\"Iowan Old Style\", \"Apple Garamond\", Baskerville, \"Times New Roman\", \"Droid Serif\", Times, \"Source Serif Pro\", serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+    "name": "System Serif Font",
+    "slug": "serif"
+  },
+  {
+    "fontFamily": "Menlo, Consolas, Monaco, \"Liberation Mono\", \"Lucida Console\", monospace",
+    "name": "System Monospace Font",
+    "slug": "monospace"
+  },
+  {
+    "fontFace": [
+      {
+        "fontFamily": "Bluetea",
+        "src": [
+          "file:./assets/fonts/bluetea/Bluetea.woff2"
+        ]
+      }
+    ],
+    "fontFamily": "Bluetea",
+    "name": "Headings Font",
+    "slug": "heading-font"
+  }
+],
+"fontSizes": [
+  {
+    "size": "1rem",
+    "slug": "small"
+  },
+  {
+    "size": "1.125rem",
+    "slug": "medium"
+  },
+  {
+    "size": "1.75rem",
+    "slug": "large"
+  },
+  {
+    "size": "2.25rem",
+    "slug": "x-large"
+  }
+]
+}
+```
+
+</details>
 
 *__Note:__* The contents of each branch reflects the theme as it should look at the _END_ of each step.
 
