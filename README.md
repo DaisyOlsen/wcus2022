@@ -24,22 +24,65 @@
 
 ### Step 11. Create and Register singular.html
 
-  1. Navigate to the `Appearance > Editor` in your WordPress Development Site admin area.
-  2. Open List view to see the blocks currently in index.html template and related parts.
-  3. Add a group block to the template and move all three template part blocks so that they are inside the group.
+#### Create a file named `single-loop.html` to the `parts` directory/folder
 
-        <details open>
-        <summary>
-        <sup>collapse/expand code</sup>
-        </summary>
+<details open>
+<summary>
+<sup>collapse/expand code</sup>
+</summary>
 
-        ```html
+  ```html
+<!-- wp:group {"lock":{"move":true,"remove":true},"align":"wide","style":{"spacing":{"padding":{"top":"40px","right":"40px","bottom":"40px","left":"40px"}}},"backgroundColor":"light","textColor":"dark","layout":{"contentSize":""}} -->
+<div class="wp-block-group alignwide has-dark-color has-light-background-color has-text-color has-background" style="padding-top:40px;padding-right:40px;padding-bottom:40px;padding-left:40px">
 
-        ```
+    <!-- wp:post-title {"textAlign":"left"} /-->
 
-        </details>
+    <!-- wp:group {"style":{"spacing":{"blockGap":"5px"},"typography":{"fontSize":"0.8rem","fontStyle":"italic","fontWeight":"300"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+    <div class="wp-block-group" style="font-size:0.8rem;font-style:italic;font-weight:300">
 
-  
+        <!-- wp:paragraph -->
+        <p>By</p>
+        <!-- /wp:paragraph -->
+
+        <!-- wp:post-author {"showAvatar":false,"byline":""} /-->
+
+        <!-- wp:paragraph -->
+        <p>on</p>
+        <!-- /wp:paragraph -->
+
+        <!-- wp:post-date /-->
+        
+    </div>
+    <!-- /wp:group -->
+
+    <!-- wp:post-content /-->
+
+</div>
+<!-- /wp:group -->
+```
+</details>
+
+#### Create a file named `singular.html` to the `templates` directory
+
+<details open>
+<summary>
+<sup>collapse/expand code</sup>
+</summary>
+
+  ```html
+<!-- wp:group {"lock":{"move":true,"remove":true},"style":{"spacing":{"padding":{"top":"0px","right":"0px","bottom":"30px","left":"0px"},"blockGap":"0px","margin":{"top":"0px","bottom":"0px"}}},"backgroundColor":"contrast","textColor":"light","className":"is-style-full-height-group","layout":{"inherit":true}} -->
+<div class="wp-block-group is-style-full-height-group has-light-color has-contrast-background-color has-text-color has-background" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-right:0px;padding-bottom:30px;padding-left:0px">
+    
+    <!-- wp:template-part {"lock":{"move":true,"remove":true},"slug":"header","align":"full"} /-->
+
+    <!-- wp:template-part {"lock":{"move":true,"remove":true},"slug":"single-content","align":"wide"} /-->
+
+    <!-- wp:template-part {"lock":{"move":true,"remove":true},"slug":"footer","align":"wide"} /-->
+    
+</div>
+<!-- /wp:group -->
+```
+</details>
 
 *__Note:__* The contents of each branch reflects the theme as it should look at the _END_ of each step.
 
