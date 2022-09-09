@@ -24,20 +24,46 @@
 
 ### Step 10. Create a Template Layout Block Pattern
 
-  1. Navigate to the `Appearance > Editor` in your WordPress Development Site admin area.
-  2. Open List view to see the blocks currently in index.html template and related parts.
-  3. Add a group block to the template and move all three template part blocks so that they are inside the group.
+#### Create a directory/folder named `patterns`
+#### Create a file named `full-page.php`
 
-        <details open>
-        <summary>
-        <sup>collapse/expand code</sup>
-        </summary>
+Add the following to the file:
+<details open>
+<summary>
+<sup>collapse/expand code</sup>
+</summary>
 
-        ```html
+  ```json
+<?php
+/**
+ * Title: Full Page Default
+ * Slug: wcus/full-page-default
+ * Block Types: core/template-part/footer, core/template-part/header
+ * Categories: featured
+ */
+?>
 
-        ```
+<!-- wp:group {"lock":{"move":true,"remove":true},"style":{"spacing":{"padding":{"top":"0px","right":"0px","bottom":"30px","left":"0px"},"blockGap":"0px","margin":{"top":"0px","bottom":"0px"}}},"backgroundColor":"contrast","textColor":"light","className":"is-style-full-height-group","layout":{"inherit":true}} -->
+<div class="wp-block-group is-style-full-height-group has-light-color has-contrast-background-color has-text-color has-background" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-right:0px;padding-bottom:30px;padding-left:0px">
 
-        </details>
+    <!-- wp:template-part {"slug":"header","theme":"wcus2022","align":"full"} /-->
+
+    <!-- wp:group {"lock":{"move":true,"remove":true},"align":"wide","style":{"spacing":{"padding":{"top":"40px","right":"40px","bottom":"40px","left":"40px"}}},"backgroundColor":"light","textColor":"dark","layout":{"contentSize":""}} -->
+    <div class="wp-block-group alignwide has-dark-color has-light-background-color has-text-color has-background" style="padding-top:40px;padding-right:40px;padding-bottom:40px;padding-left:40px">
+        
+        <!-- wp:paragraph {"placeholder":"Add Blocks Here ..."} -->
+        <p></p>
+        <!-- /wp:paragraph -->
+
+    </div>
+    <!-- /wp:group -->
+
+    <!-- wp:template-part {"slug":"footer","theme":"wcus2022","align":"wide"} /-->
+
+</div>
+<!-- /wp:group -->
+```
+</details>
 
   
 
