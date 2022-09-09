@@ -46,7 +46,7 @@ On a new line at the end of the `settings` section, after the closing `},` in th
 <sup>collapse/expand code</sup>
 </summary>
 
-```
+```json
 "color": {
   "background": "var:preset|color|light",
   "text": "var:preset|color|dark"
