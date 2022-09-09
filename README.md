@@ -24,21 +24,37 @@
 
 ### Step 13. Create and register a custom template
 
-  1. Navigate to the `Appearance > Editor` in your WordPress Development Site admin area.
-  2. Open List view to see the blocks currently in index.html template and related parts.
-  3. Add a group block to the template and move all three template part blocks so that they are inside the group.
+#### Create a file named `blank.html` in the `templates` directory/folder
+<details open>
+<summary>
+<sup>collapse/expand code</sup>
+</summary>
 
-        <details open>
-        <summary>
-        <sup>collapse/expand code</sup>
-        </summary>
+  ```html
+<!-- wp:post-content {"layout":{"inherit":true}} /-->
+```
+</details>
 
-        ```html
+#### Register custom template in `theme.json`
+Add the following just after the opening `{` in `theme.json`
+<details open>
+<summary>
+<sup>collapse/expand code</sup>
+</summary>
 
-        ```
-
-        </details>
-
+  ```json
+	"customTemplates": [
+		{
+			"name": "blank",
+			"postTypes": [
+				"page",
+				"post"
+			],
+			"title": "Blank"
+		}
+	],
+```
+</details>
   
 
 *__Note:__* The contents of each branch reflects the theme as it should look at the _END_ of each step.
