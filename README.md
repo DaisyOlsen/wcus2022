@@ -39,7 +39,7 @@ On a new line at the end of the `settings` section, after the closing `},` in th
 ```
 </details>
 
-#### Add Styles to be Used Globaly
+#### Add Styles to be Used Globaly to theme.json
 
 <details open>
 <summary>
