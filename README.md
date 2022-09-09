@@ -22,24 +22,22 @@
 
 ---
 
-### Step 9. Surface a block pattern via theme.json
+### Step 9. Surface a block pattern via `theme.json`
 
-  1. Navigate to the `Appearance > Editor` in your WordPress Development Site admin area.
-  2. Open List view to see the blocks currently in index.html template and related parts.
-  3. Add a group block to the template and move all three template part blocks so that they are inside the group.
+#### Add block pattern to theme.json
+Add the following just after the opening `{` in `theme.json`
+<details open>
+<summary>
+<sup>collapse/expand code</sup>
+</summary>
 
-        <details open>
-        <summary>
-        <sup>collapse/expand code</sup>
-        </summary>
+  ```json
+	"patterns": [
+		"simple-call-to-action"
+	],
+```
+</details>
 
-        ```html
-
-        ```
-
-        </details>
-
-  
 
 *__Note:__* The contents of each branch reflects the theme as it should look at the _END_ of each step.
 
