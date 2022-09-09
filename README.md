@@ -24,22 +24,82 @@
 
 ### Step 7. Enqueue style.css for custom CSS
 
-  1. Navigate to the `Appearance > Editor` in your WordPress Development Site admin area.
-  2. Open List view to see the blocks currently in index.html template and related parts.
-  3. Add a group block to the template and move all three template part blocks so that they are inside the group.
+#### Add custom CSS to style.css
+<details open>
+<summary>
+<sup>collapse/expand code</sup>
+</summary>
 
-        <details open>
-        <summary>
-        <sup>collapse/expand code</sup>
-        </summary>
+  ```css
+.wp-block-post-title a:active,
+.wp-block-post-title a:hover {
+    text-decoration: underline;
+}
+```
+</details>
 
-        ```html
+#### Create a file named functions.php in your theme directory/folder
 
-        ```
+Add the following to this file:
 
-        </details>
+  <details open>
+  <summary>
+  <sup>collapse/expand code</sup>
+  </summary>
 
-  
+  ```php
+<?php
+/**
+ * WCUS Block Theme functions and definitions
+ *
+ */
+
+
+if ( ! function_exists( 'wcus_support' ) ) :
+
+	/**
+	 * Sets up theme defaults and registers support for various WordPress features.
+	 */
+	function wcus_support() {
+
+		// Enqueue editor styles. See: https://developer.wordpress.org/reference/functions/add_editor_style/
+		add_editor_style( 'style.css' );
+
+	}
+
+endif;
+
+add_action( 'after_setup_theme', 'wcus_support' );
+
+if ( ! function_exists( 'wcus_styles' ) ) :
+
+	/**
+	 * Enqueue styles.
+	 */
+	function wcus_styles() {
+		// Register theme stylesheet.
+		$theme_version = wp_get_theme()->get( 'Version' );
+
+		$version_string = is_string( $theme_version ) ? $theme_version : false;
+		wp_register_style(
+			'wcus-style',
+			get_template_directory_uri() . '/style.css',
+			array(),
+			$version_string
+		);
+
+		// Enqueue theme stylesheet. See: https://developer.wordpress.org/reference/functions/wp_enqueue_style/
+		wp_enqueue_style( 'wcus-style' );
+
+	}
+
+endif;
+
+add_action( 'wp_enqueue_scripts', 'wcus_styles' );
+
+  ```
+
+  </details>
 
 *__Note:__* The contents of each branch reflects the theme as it should look at the _END_ of each step.
 
