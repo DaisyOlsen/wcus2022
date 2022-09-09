@@ -46,9 +46,9 @@
       - OS File Manager __`*`__
       - File Manager of your choice
 
-  4. Check out`*` or Download this respository to your development environment at `wp-content/themes`
+  4. __[Optional]__ Check out`*` or Download this respository to your development environment at `wp-content/themes`
 
-  ___Note:__ __`*`__ Denotes tools used for Demonstration and Examples_
+  ___Note:__ __`*`__ Denotes tools used for demonstration and examples_
 
 ---
 
