@@ -23,30 +23,30 @@
 ---
 ### Step 0. Preparation - Setting up Development Environment
 
-  1. Create a local installation of WordPress
+  1. __[Required]__ Create a local installation of WordPress
 
         _Options:_
 
       - [localwp.com](https://localwp.com) __`*`__
       - [wp-env](https://developer.wordpress.org/block-editor/reference-guides/packages/packages-env/)
 
-  2. Setup an IDE (Integrated Development Environment) or Text Editor for editing theme files.
+  2. __[Required]__ Setup an IDE (Integrated Development Environment) or Text Editor for editing theme files.
 
         Options: 
 
       - [Visual Studio Code](https://code.visualstudio.com/) __`*`__
       - [WebStorm](https://www.jetbrains.com/webstorm/) `(Paid)`
       - [PHPStorm](https://www.jetbrains.com/phpstorm/) `(Paid)`
-
-
-  3. Have the ability to access local WordPress installation files
+  3. __[Required]__ Have the ability to access local WordPress installation files
 
         Options:
 
       - OS File Manager __`*`__
       - File Manager of your choice
 
-  4. __[Optional]__ Check out`*` or Download this respository to your development environment at `wp-content/themes`
+  4. __[Recommended]__ Install and activate the [Create Block Theme plugin](https://wordpress.org/plugins/create-block-theme/) on your WordPress development site
+
+  5. __[Optional]__ Check out or Download this respository to your development environment at `wp-content/themes`
 
   ___Note:__ __`*`__ Denotes tools used for demonstration and examples_
 
