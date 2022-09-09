@@ -24,22 +24,13 @@
 
 ### Step 5. Refine Templates and Parts
 
-  1. Navigate to the `Appearance > Editor` in your WordPress Development Site admin area.
-  2. Open List view to see the blocks currently in index.html template and related parts.
-  3. Add a group block to the template and move all three template part blocks so that they are inside the group.
+Moving into the site editor we'll add additional blocks to create some structure and settings.
 
-        <details open>
-        <summary>
-        <sup>collapse/expand code</sup>
-        </summary>
+The [Create Block Theme Plugin](https://wordpress.org/plugins/create-block-theme/) is highly recommended for merging the changes made in the site editor back to your theme files.
 
-        ```html
+Alternatively, you can export the theme from the site editor and replace files manually.
 
-        ```
-
-        </details>
-
-  
+We'll walk through this process together. The code reflected in this branch is what I came up with but your results may be  different!
 
 *__Note:__* The contents of each branch reflects the theme as it should look at the _END_ of each step.
 
