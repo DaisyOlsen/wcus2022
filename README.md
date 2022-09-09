@@ -24,20 +24,125 @@
 
 ### Step 14. Create a style variation
 
-  1. Navigate to the `Appearance > Editor` in your WordPress Development Site admin area.
-  2. Open List view to see the blocks currently in index.html template and related parts.
-  3. Add a group block to the template and move all three template part blocks so that they are inside the group.
+#### Create a directory/folder named `styles`
+#### Create a file named `beach.json` to the `styles` directory/folder
+<details open>
+<summary>
+<sup>collapse/expand code</sup>
+</summary>
 
-        <details open>
-        <summary>
-        <sup>collapse/expand code</sup>
-        </summary>
-
-        ```html
-
-        ```
-
-        </details>
+  ```json
+{
+    "settings": {
+        "color": {
+            "palette": [
+                {
+                    "color": "#F7ECE1",
+                    "name": "Light",
+                    "slug": "light"
+                },
+                {
+                    "color": "#333333",
+                    "name": "Dark",
+                    "slug": "dark"
+                },
+                {
+                    "color": "#2c418d",
+                    "name": "Blue",
+                    "slug": "contrast"
+                },
+                {
+                    "color": "#606c87",
+                    "name": "Grey",
+                    "slug": "primary"
+                },
+                {
+                    "color": "#e8fba0",
+                    "name": "Yellow",
+                    "slug": "secondary"
+                },
+                {
+                    "color": "#F7ECE1",
+                    "name": "Light Blue",
+                    "slug": "tertiary"
+                },
+                {
+                    "color": "#99dae3",
+                    "name": "Green",
+                    "slug": "quaternary"
+                }
+            ]
+        },
+        "typography": {
+			"fontFamilies": [
+				{
+					"fontFamily": "-apple-system, BlinkMacSystemFont, \"avenir next\", avenir, \"segoe ui\", \"helvetica neue\", helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif",
+					"name": "System Sans-Serif Font",
+					"slug": "sans-serif"
+				},
+				{
+					"fontFamily": "\"Iowan Old Style\", \"Apple Garamond\", Baskerville, \"Times New Roman\", \"Droid Serif\", Times, \"Source Serif Pro\", serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+					"name": "System Serif Font",
+					"slug": "serif"
+				},
+				{
+					"fontFamily": "Menlo, Consolas, Monaco, \"Liberation Mono\", \"Lucida Console\", monospace",
+					"name": "System Monospace Font",
+					"slug": "monospace"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Coconat",
+                            "fontStyle": "normal",
+                            "fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/coconat/Coconat-Regular.woff2"
+							]
+						},
+                        {
+							"fontFamily": "Coconat",
+                            "fontStyle": "normal",
+                            "fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/coconat/Coconat-BoldExt.woff2"
+							]
+						}
+					],
+					"fontFamily": "Coconat",
+					"name": "Headings Font",
+					"slug": "heading-font"
+				}
+			]
+        }
+    },
+    "styles": {
+        "blocks": {
+			"core/site-title": {
+				"color": {
+					"text": "var:preset|color|quaternary"
+				},
+				"elements": {
+					"link": {
+						"color": {
+							"text": "var:preset|color|contrast"
+						}
+					}
+				},
+				"typography": {
+					"fontFamily": "var:preset|font-family|heading-font",
+					"fontSize": "3rem",
+					"letterSpacing": "20px",
+                    "fontWeight": "700"
+				}
+			}
+        }
+    },
+    "version": 2,
+    "$schema": "https://schemas.wp.org/trunk/theme.json"
+}
+```
+</details>
 
   
 
