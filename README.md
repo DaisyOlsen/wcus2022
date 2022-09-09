@@ -24,22 +24,117 @@
 
 ### Step 6. Add styles to theme.json
 
-  1. Navigate to the `Appearance > Editor` in your WordPress Development Site admin area.
-  2. Open List view to see the blocks currently in index.html template and related parts.
-  3. Add a group block to the template and move all three template part blocks so that they are inside the group.
+#### Adding a styles section to theme.json
+On a new line at the end of the `settings` section, after the closing `},` in theme.json add:
 
-        <details open>
-        <summary>
-        <sup>collapse/expand code</sup>
-        </summary>
+<details open>
+<summary>
+<sup>collapse/expand code</sup>
+</summary>
 
-        ```html
+```json
+"styles": {
 
-        ```
+},
+```
+</details>
 
-        </details>
+#### Add Styles to be Used Globaly
 
+<details open>
+<summary>
+<sup>collapse/expand code</sup>
+</summary>
+
+```
+"color": {
+  "background": "var:preset|color|light",
+  "text": "var:preset|color|dark"
+},
+"elements": {
+  "link": {
+    "color": {
+      "text": "var:preset|color|contrast"
+    }
+  }
+},
+"typography": {
+  "fontFamily": "var:preset|font-family|sans-serif",
+  "fontSize": "var:preset|font-size|small"
+}
+```
+
+</details>
+
+#### Adding Block Level Styles to theme.json
+
+
+<details open>
+<summary>
+<sup>collapse/expand code</sup>
+</summary>
+
+```json
+"blocks": {
+  "core/post-title": {
+    "color": {
+      "text": "var:preset|color|contrast"
+    },
+    "elements": {
+      "link": {
+        "typography": {
+          "textDecoration": "none"
+        }
+      }
+    },
+    "typography": {
+      "fontFamily": "var:preset|font-family|sans-serif",
+      "fontSize": "var:preset|font-size|x-large",
+      "fontStyle": "normal",
+      "fontWeight": "900",
+      "letterSpacing": "5px",
+      "lineHeight": "2"
+    }
+  },
   
+  "core/query-pagination-numbers": {
+    "typography": {
+      "letterSpacing": "5px"
+    }
+  },
+  "core/site-tagline": {
+    "color": {
+      "text": "var:preset|color|contrast"
+    },
+    "typography": {
+      "fontFamily": "var:preset|font-family|serif",
+      "fontStyle": "italic",
+      "fontWeight": "900"
+    }
+  },
+  "core/site-title": {
+    "color": {
+      "text": "var:preset|color|contrast"
+    },
+    "elements": {
+      "link": {
+        "color": {
+          "text": "var:preset|color|contrast"
+        },
+        "typography": {
+          "textDecoration": "dashed"
+        }
+      }
+    },
+    "typography": {
+      "fontFamily": "var:preset|font-family|heading-font",
+      "fontSize": "2.75rem",
+      "letterSpacing": "3px"
+    }
+  }
+},
+```
+</details>
 
 *__Note:__* The contents of each branch reflects the theme as it should look at the _END_ of each step.
 
