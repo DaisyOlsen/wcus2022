@@ -22,24 +22,62 @@
 
 ---
 
-### Step 12. Create a custom 404 page
+### Step 12. Create a custom 404 Template and Hidden Block Pattern
 
-  1. Navigate to the `Appearance > Editor` in your WordPress Development Site admin area.
-  2. Open List view to see the blocks currently in index.html template and related parts.
-  3. Add a group block to the template and move all three template part blocks so that they are inside the group.
+#### Add file named `hidden-404-content.php` to the `patterns` directory/folder
 
-        <details open>
-        <summary>
-        <sup>collapse/expand code</sup>
-        </summary>
+<details open>
+<summary>
+<sup>collapse/expand code</sup>
+</summary>
 
-        ```html
+  ```json
+<?php
+/**
+ * Title: 404 content
+ * Slug: wcus/hidden-404-content
+ * Inserter: no
+ */
+?>
 
-        ```
+<!-- wp:heading {"textAlign":"center"} -->
+<h2 class="has-text-align-center">Sorry We couldn't find anything for you, here's a cute Wapuu instead.</h2>
+<!-- /wp:heading -->
 
-        </details>
-
+<!-- wp:image {"align":"full","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image alignfull size-full">
+    <img src="<?php echo esc_url( get_template_directory_uri()) ?>/assets/images/surferpuu.jpeg" alt="<?php echo esc_attr__( 'WCUS 2022 Wapuu.', 'wcus' ) ?>"/>
+</figure>
+<!-- /wp:image -->
+```
+</details>
   
+#### Add file named `404.html` to the `templates` directory/folder
+<details open>
+<summary>
+<sup>collapse/expand code</sup>
+</summary>
+
+  ```html
+<!-- wp:group {"lock":{"move":true,"remove":true},"style":{"spacing":{"padding":{"top":"0px","right":"0px","bottom":"30px","left":"0px"},"blockGap":"0px","margin":{"top":"0px","bottom":"0px"}}},"backgroundColor":"contrast","textColor":"light","className":"is-style-full-height-group","layout":{"inherit":true}} -->
+<div class="wp-block-group is-style-full-height-group has-light-color has-contrast-background-color has-text-color has-background" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-right:0px;padding-bottom:30px;padding-left:0px">
+    
+    <!-- wp:template-part {"lock":{"move":true,"remove":true},"slug":"header","align":"full"} /-->
+
+    <!-- wp:group {"lock":{"move":true,"remove":true},"align":"wide","style":{"spacing":{"padding":{"top":"40px","right":"40px","bottom":"40px","left":"40px"}}},"backgroundColor":"light","textColor":"dark","layout":{"contentSize":""}} -->
+    <div class="wp-block-group alignwide has-dark-color has-light-background-color has-text-color has-background" style="padding-top:40px;padding-right:40px;padding-bottom:40px;padding-left:40px">
+
+        <!-- wp:pattern {"slug":"wcus/hidden-404-content"} /-->
+
+    </div>
+    <!-- /wp:group -->
+
+    <!-- wp:template-part {"lock":{"move":true,"remove":true},"slug":"footer","align":"wide"} /-->
+
+</div>
+<!-- /wp:group -->
+```
+</details>
 
 *__Note:__* The contents of each branch reflects the theme as it should look at the _END_ of each step.
 
@@ -52,6 +90,7 @@ __<-- [Previous Step (11)][11]__
  __[Next Step (13)][13] -->__
 
 </div>
+
 
 ---
 
