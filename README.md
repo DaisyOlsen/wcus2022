@@ -24,7 +24,7 @@
 
 ### Step 4. Add Settings (Presets and Supports) to theme.json
 
-### Adding a settings section to theme.json
+#### Adding a settings section to theme.json
 On a new line after the opening `{` in theme.json add:
 
 <details open>
